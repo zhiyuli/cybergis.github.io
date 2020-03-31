@@ -59,10 +59,10 @@
         //--------------------------------------------------------------------------
 
         //var layer = new FeatureLayer({url: "https://services.arcgis.com/GL0fWlNkwysZaKeV/arcgis/rest/services/states_update/FeatureServer/0", outFields: ["*"]});
-        //var layer = new FeatureLayer({url: "https://services.arcgis.com/GL0fWlNkwysZaKeV/arcgis/rest/services/nyt_states_data/FeatureServer/0", outFields: ["*"]});
+        var layer = new FeatureLayer({url: "https://services.arcgis.com/GL0fWlNkwysZaKeV/arcgis/rest/services/nyt_states_data/FeatureServer/0", outFields: ["*"]});
 
 
-        var layer = new FeatureLayer({url: "https://services.arcgis.com/GL0fWlNkwysZaKeV/arcgis/rest/services/nyt_counties_data/FeatureServer/0", outFields: ["*"]});
+        //var layer = new FeatureLayer({url: "https://services.arcgis.com/GL0fWlNkwysZaKeV/arcgis/rest/services/nyt_counties_data/FeatureServer/0", outFields: ["*"]});
         var map = new Map({
           basemap: {
             portalItem: {
@@ -430,7 +430,7 @@
                   },
                   {
                     value: days2start - 1,
-                    color: "#404",
+                    color: "#FF0000",
                     label: "in " + (Math.floor(days2start) - 20)
                   },
                   // {
